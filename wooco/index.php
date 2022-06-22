@@ -6,8 +6,8 @@ use Automattic\WooCommerce\Client;
 
 $woocommerce = new Client(
     'http://stage.creavitbelgium.be', // woocommerce magaza urlsi.
-    'ck_45a0ac827987b77d492054e220e64a5d23d917dd', // magaza anahtarı.
-    'cs_ed2c98abb72c019aa57dccde7c59b1958d70738b', // secret anahtar numarası.
+    'ck_bed58273305703e6188430d0cedd8064d3e3b205', // magaza anahtarı.
+    'cs_feccf990c84682649d6f3fa63204e3ec7533b2e3', // secret anahtar numarası.
     [
         'wp_api' => true, //entegrasyonu etkinleştirme.
         'version' => 'wc/v3' // rest api versiyon.
