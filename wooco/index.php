@@ -5,9 +5,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Automattic\WooCommerce\Client;
 
 $woocommerce = new Client(
-    'http://stage.creavitbelgium.be', // woocommerce magaza urlsi.
-    'ck_bed58273305703e6188430d0cedd8064d3e3b205', // magaza anahtarı.
-    'cs_feccf990c84682649d6f3fa63204e3ec7533b2e3', // secret anahtar numarası.
+    
     [
         'wp_api' => true, //entegrasyonu etkinleştirme.
         'version' => 'wc/v3' // rest api versiyon.
